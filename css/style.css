@@ -1,0 +1,252 @@
+﻿body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+/* El valor 0.45 puede aumentarse a 0.6 o 0.7 si necesitas oscurecer más el fondo. */
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.45),
+      rgba(0,0,0,0.45)
+    ),
+    url("../imagenes/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Mejorar el contraste del título */
+header {
+  padding: 20px;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 2px 2px 5px black;
+  font-size: 2em;
+  font-weight: bold;
+  animation: fadeInDown 1.5s ease;
+}
+
+.titulo-img {
+    max-width: 700px;
+    width: 90%;
+    height: auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+/* Hacer más visibles las tarjetas */
+.matematicas {
+  background: rgba(255, 99, 71, 0.25);
+  backdrop-filter: blur(12px);
+/* Agregar desenfoque detrás de las tarjetas (efecto moderno) */
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 255, 255, 0.4);
+  border-radius: 15px;
+  margin: 15px;
+  padding: 30px;
+  width: 200px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.ciencias {
+  background: rgba(46, 204, 113, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 255, 255, 0.4);
+  border-radius: 15px;
+  margin: 15px;
+  padding: 30px;
+  width: 200px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.historia {
+  background: rgba(52, 152, 219, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 255, 255, 0.4);
+  border-radius: 15px;
+  margin: 15px;
+  padding: 30px;
+  width: 200px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.lengua {
+  background: rgba(155, 89, 182, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 255, 255, 0.4);
+  border-radius: 15px;
+  margin: 15px;
+  padding: 30px;
+  width: 200px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.tec_inf {
+  background: rgba(241, 196, 15, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 255, 255, 0.4);
+  border-radius: 15px;
+  margin: 15px;
+  padding: 30px;
+  width: 200px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.musica {
+  background: rgba(230, 126, 34, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 255, 255, 0.4);
+  border-radius: 15px;
+  margin: 15px;
+  padding: 30px;
+  width: 200px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.deportes {
+  background: rgba(26, 188, 156, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 255, 255, 0.4);
+  border-radius: 15px;
+  margin: 15px;
+  padding: 30px;
+  width: 200px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.matematicas:hover {
+  transform: translateY(-5px) scale(1.05);
+  background: rgba(255, 99, 71, 0.55);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+}
+
+.ciencias:hover {
+  transform: translateY(-5px) scale(1.05);
+  background: rgba(46, 204, 113, 0.55);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+}
+
+.historia:hover {
+  transform: translateY(-5px) scale(1.05);
+  background: rgba(52, 152, 219, 0.55);
+  box-shadow: 0 12px 40px rgba(52, 152, 219, 0.45);
+}
+
+.lengua:hover {
+  transform: translateY(-5px) scale(1.05);
+  background: rgba(155, 89, 182, 0.55);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+}
+
+.tec_inf:hover {
+  transform: translateY(-5px) scale(1.05);
+  background: rgba(241, 196, 15, 0.55);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+}
+
+.musica:hover {
+  transform: translateY(-5px) scale(1.05);
+  background: rgba(230, 126, 34, 0.55);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+}
+
+.deportes:hover {
+  transform: translateY(-5px) scale(1.05);
+  background: rgba(26, 188, 156, 0.55);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+}
+
+/* Para los títulos de las tarjetas */
+.card h3 {
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+.card-link:link,
+.card-link:visited,
+.card-link:hover,
+.card-link:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #fff;
+  color: #333;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ddd;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background: rgba(0,0,0,0.4);
+  font-size: 0.9em;
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
